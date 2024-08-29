@@ -73,7 +73,3 @@ python task_manager.py --update 1 "Complete the assignment" "Submit by end of da
 # Example command to delete a task
 python task_manager.py --delete 1
 
-**Future Improvements**
-Persistent Storage: Implement a database or file-based storage system for persistent task management.
-Advanced Features: Add features such as task prioritization, deadlines, and notifications.
-User Interface: Develop a graphical user interface (GUI) for improved user experience.
