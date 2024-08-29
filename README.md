@@ -52,20 +52,15 @@ To run the TaskManager application:
 
 1. **Navigate to the project directory:**
 
-   ```bash
    cd /path/to/TaskManager
 Execute the main script:
 
-bash
-Copy code
 python task_manager.py
 Follow the prompts or use command-line arguments to interact with the application.
 
 Examples
 Here are some example commands to illustrate how the TaskManager can be used:
 
-bash
-Copy code
 # Example command to add a new task
 python task_manager.py --add "Finish homework" "Complete the assignment by tomorrow"
 
@@ -77,15 +72,8 @@ python task_manager.py --update 1 "Complete the assignment" "Submit by end of da
 
 # Example command to delete a task
 python task_manager.py --delete 1
-Future Improvements
+
+# Future Improvements
 Persistent Storage: Implement a database or file-based storage system for persistent task management.
 Advanced Features: Add features such as task prioritization, deadlines, and notifications.
 User Interface: Develop a graphical user interface (GUI) for improved user experience.
-Contributing
-Contributions are welcome! If you would like to contribute to this project, please fork the repository, create a new branch for your changes, and submit a pull request.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Contact
-For any questions or feedback, please contact:
