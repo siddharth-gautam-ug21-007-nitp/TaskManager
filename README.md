@@ -51,12 +51,12 @@ The TaskManager project is an application designed to help users manage and trac
 To run the TaskManager application:
 
 1. **Navigate to the project directory:**
-
    cd /path/to/TaskManager
-Execute the main script:
 
-python task_manager.py
-Follow the prompts or use command-line arguments to interact with the application.
+2. **Execute the main script:**
+   python task_manager.py
+
+3. **Follow the prompts or use command-line arguments to interact with the application.**
 
 Examples
 Here are some example commands to illustrate how the TaskManager can be used:
@@ -73,7 +73,7 @@ python task_manager.py --update 1 "Complete the assignment" "Submit by end of da
 # Example command to delete a task
 python task_manager.py --delete 1
 
-# Future Improvements
+**Future Improvements**
 Persistent Storage: Implement a database or file-based storage system for persistent task management.
 Advanced Features: Add features such as task prioritization, deadlines, and notifications.
 User Interface: Develop a graphical user interface (GUI) for improved user experience.
